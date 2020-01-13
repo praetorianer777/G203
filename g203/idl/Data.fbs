@@ -1,0 +1,19 @@
+include "TrackedMotorThrottle.fbs";
+include "Register.fbs";
+
+namespace themachineeu;
+
+file_identifier "DATA"; //two tracked motor throttle
+
+enum DataType : byte {E_TrackedMotorThrottle=0, E_Register=1}
+
+union Data{
+    TrackedMotorThrottle, Register
+}
+
+table DataObject {
+  dType:DataType;
+  data:Data;
+}
+
+root_type DataObject;

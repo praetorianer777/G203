@@ -1,0 +1,10 @@
+namespace themachineeu;
+
+file_identifier "2TMT"; //two tracked motor throttle
+
+table TrackedMotorThrottle {
+  leftMotor:float;
+  rightMotor:float;
+}
+
+root_type TrackedMotorThrottle;

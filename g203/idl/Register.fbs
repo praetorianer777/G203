@@ -1,0 +1,12 @@
+namespace themachineeu;
+
+file_identifier "REGI"; //two tracked motor throttle
+
+enum UserType : byte {Slam=0, Drive=1}
+
+table Register {
+  name:string;
+  userType:UserType;
+}
+
+root_type Register;

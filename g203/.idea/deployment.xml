@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="RaspiHome (73a7512e-0c47-4899-9a98-515412a790a9)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.WTzw9ErAwL" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-raspihome" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="RaspiUNI (4bf7c152-4b36-49f7-a01f-ed0fc0d4533b)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.uI15jI8EQZ" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-raspiuni" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
